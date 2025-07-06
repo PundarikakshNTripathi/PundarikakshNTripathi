@@ -51,8 +51,8 @@
 
 ### 🌐 Connect With Me
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR_USERNAME)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/pundarikakshnarayantripathi/)  
 - 📫 Email: `pndntpt48@gmail.com`  
-- 💬 Discord: `kzeckt_64571` (alias: **KzeCkt**)
+- 💬 Discord: `kzeckt_64571` (Display Name: **KzeCkt**)
 
 ---
