@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Pundarikaksh Narayan Tripathi (aka <strong>KzeCkt</strong>)</h1>
 <p align="center">
-  🚀 Aspiring AI/ ML Software Engineer || Full-Stack & GenAI Developer || ML, Data Science, Data Analysis || Open to Internships & Freelance
+  🚀 Aspiring AI/ ML Software Engineer || Full-Stack & GenAI Developer || ML, Data Science, Data Analysis || Open to Internships, Hackathons, and Open-source Collaboration
 </p>
 
 ---
