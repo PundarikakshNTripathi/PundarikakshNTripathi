@@ -14,6 +14,7 @@
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pundarikakshnarayantripathi/)
+[![X](https://img.shields.io/badge/X-@PundarikakshNT-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PundarikakshNT)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pundarikaksh.dev@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-KzeCkt-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/1180248555189968897)
 
@@ -199,6 +200,7 @@ status: Open to Opportunities
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pundarikaksh_Narayan_Tripathi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pundarikakshnarayantripathi/)
+[![X](https://img.shields.io/badge/X-@PundarikakshNT-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PundarikakshNT)
 [![Gmail](https://img.shields.io/badge/Gmail-pundarikaksh.dev@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pundarikaksh.dev@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-kzeckt__64571-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/1180248555189968897)
 
