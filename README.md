@@ -1,15 +1,15 @@
 <div align="center">
 
-# 👋 Hi, I'm **Pundarikaksh Narayan Tripathi**
+# 👋 Hi, I'm **Pundarikaksh**
 
-### aka **KzeCkt**
+### aka **Kzeckt**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Aspiring+AI%2FML+Software+Engineer;Full-Stack+%26+GenAI+Developer;Open+to+Internships+%26+Collaboration)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+%26+Systems+Researcher;Backend+Developer;Open+to+Opportunities+%26+Collaboration)](https://git.io/typing-svg)
 
 ---
 
-### 💡 Passionate about architecting intelligent systems and scalable solutions
-*From full-stack applications to cutting-edge ML/GenAI models — building at the intersection of software engineering and artificial intelligence*
+### 💡 Passionate about building intelligent systems and robust backend architectures
+*From AI/ML models to scalable distributed systems — engineering at the intersection of machine learning and systems research*
 
 ---
 
@@ -24,28 +24,34 @@
 
 ## 🚀 About Me
 
-```yaml
-name: Pundarikaksh Narayan Tripathi
-role: AI/ML Engineer & Full-Stack Developer
-education:
-  - degree: B.Tech in CSE (AI Specialization)
-    institution: BBDU, Lucknow
-    year: Third Year
-  - minor: Artificial Intelligence
-    institution: IIT Mandi
-location: India
-status: Open to Opportunities
-```
+**Name:** Pundarikaksh Narayan Tripathi
 
-### 🔭 Current Focus
+**Target Roles:** AI/ML Engineer & Systems Researcher, Backend Developer
 
-```diff
-+ Mastering Data Structures & Algorithms (Python)
-+ Building production-ready ML/DL models with PyTorch & scikit-learn
-+ Developing scalable applications with MERN stack
-+ Exploring Generative AI with LangChain, LlamaIndex & Open Source LLMs
-+ Diving deep into AI Agents & Automation frameworks
-```
+**Education:**
+  - Bachelor of Technology, Computer Science Engineering (AI Specialization), Babu Banarasi Das University, Lucknow
+  - Minor in Artificial Intelligence, IIT Mandi
+
+**Location:** India
+
+**Status:** Open to Opportunities
+
+
+## 🔭 Currently Building & Learning
+
+
++ Building a 1D Optimal Transport Engine in C++ (LumaSort)
++ Architecting Kortex: An Autonomous Agentic Protocol (Private SaaS)
++ Researching Low-Level GPU Kernels & Triton Optimization
++ Mastering Distributed Systems with Go
+
+## 🏆 Featured Projects
+
+| Project | Description | Tech Stack |
+|------------|-------------|-------------|
+| LumaSort Engine | SHigh-Performance Particle Morphing. A C++ engine that uses 1D Optimal Transport and flow fields to transform images and live webcam feeds. Recreates complex visual effects without AI. | C++20, OpenGL, ImGui, OpenCV |
+| Cognova (Amazon ML Challenge) | Multimodal Price Prediction. A robust 2-pipeline system (Text + Image) using optimized ensembles of LightGBM, XGBoost, and ResNet-50. Built for the Amazon ML Challenge. | Python, Scikit-Learn, ResNet50, MLflow |
+| JAX Deep Dive | Fraud Detection at Scale. Implementation of production-grade fraud detection on 284K transactions using JAX for JIT compilation and GPU acceleration. | JAX, CUDA, Python |
 
 ---
 
@@ -56,8 +62,10 @@ status: Open to Opportunities
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+[![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.cppreference.com/w/c)
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://www.lua.org/)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -70,14 +78,19 @@ status: Open to Opportunities
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 
 ### 🤖 AI/ML & Deep Learning
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
+[![JAX](https://img.shields.io/badge/JAX-A435F0?style=for-the-badge&logo=google&logoColor=white)](https://jax.readthedocs.io/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/)
 
-### 🧠 Generative AI & LLM Tools
+### 🧠 Generative/ Agentic AI
 
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/🦜🕸️_LangGraph-1C3C3C?style=for-the-badge)
@@ -87,70 +100,61 @@ status: Open to Opportunities
 ![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Google AI SDK](https://img.shields.io/badge/Google_AI_SDK-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**Models**: 
-[![LLaMA](https://img.shields.io/badge/LLaMA-0467DF?style=flat-square&logo=meta&logoColor=white)](https://ai.meta.com/llama/)
-[![Mistral](https://img.shields.io/badge/Mistral-FF7000?style=flat-square)](https://mistral.ai/)
-[![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![GPT](https://img.shields.io/badge/GPT-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/)
 [![Unsloth](https://img.shields.io/badge/Unsloth-FFA500?style=flat-square)](https://github.com/unslothai/unsloth)
 
 ### 🗄️ Databases & Vector Stores
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-
-**Vector Databases**: 
 [![FAISS](https://img.shields.io/badge/FAISS-00ADD8?style=flat-square&logo=meta&logoColor=white)](https://github.com/facebookresearch/faiss)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square)](https://www.trychroma.com/)
 [![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square)](https://weaviate.io/)
 [![Milvus](https://img.shields.io/badge/Milvus-00B0FF?style=flat-square)](https://milvus.io/)
 
-### ☁️ Cloud & DevOps
+### ☁️ MLOps, DevOps
 
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Tools**: 
-[![GCP Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://cloud.google.com/vertex-ai)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=google-colab&logoColor=white)](https://colab.research.google.com/)
-
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
+[![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)](https://wandb.ai/)
+[![Kubeflow](https://img.shields.io/badge/Kubeflow-326CE5?style=for-the-badge&logo=kubeflow&logoColor=white)](https://www.kubeflow.org/)
+[![AWS SageMaker](https://img.shields.io/badge/AWS_SageMaker-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/sagemaker/)
+[![S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 ---
 
-## 🎯 Areas of Interest
-
+## 🎯 Technical Arsenal & Roadmap
+i.e. what I'm learning & building (Currently exploring via independent research).
 <table>
 <tr>
 <td width="50%">
 
 ### 🧠 AI/ML & Generative AI
-- Deep Learning & Neural Networks
+Building intelligent architectures.
+- Deep Learning: PyTorch, JAX, Neural Networks
 - Computer Vision & NLP
-- Large Language Models (LLMs)
-- RAG Systems & Vector Databases
-- AI Agents & Multi-Agent Systems
 - Reinforcement Learning
-- Model Optimization & Deployment
+- Large Language Models (LLMs)
+- Deployment: Model Optimization, Inference Servers
 - AI Research & New Developments
-- LLM Fine-tuning & Optimization Techniques
+- GenAI: RAG Systems, Vector DBs, LLM Fine-tuning
+- Agents: Multi-Agent Systems, MCP (Model Context Protocol), A2A (Agent to Agent Protocol)
 
 </td>
 <td width="50%">
 
-### ⚡ GPU Programming & AI Infrastructure
-- CUDA Programming
-- Kernel Optimization
-- Triton Programming
-- C++ Implementation for Deep Learning
-- PyTorch C++ Extensions
-- High-Performance Computing
-- Custom CUDA Kernels
-- Low-Level Neural Network Optimization
+### ⚡ GPU & Low-Level Infra
+Exploring the metal.
+- Compute: CUDA Programming, High-Performance Computing
+- Languages: C++ for Deep Learning, PyTorch C++ Extensions
+- Optimization: Kernel Optimization, Triton (Learning)
+- Research: Implementing Papers from Scratch
 
 </td>
 </tr>
@@ -159,7 +163,7 @@ status: Open to Opportunities
 
 ### 🌐 Full-Stack Development
 - MERN Stack Applications
-- RESTful APIs & Microservices
+- RESTful APIs, gRPC & Microservices
 - Responsive Web Design
 - Backend Architecture
 
@@ -186,10 +190,10 @@ status: Open to Opportunities
 
 | Opportunity | Description |
 |------------|-------------|
-| 💻 **Internships** | ML, GenAI, Software Development, Data Science roles |
+| 💻 **Internships** | Systems/ML Engineer, GenAI Developer, Backend Roles |
 | 🏆 **Hackathons** | Love building innovative solutions under pressure |
-| 🌟 **Open Source** | Contributing to impactful projects |
-| 🤝 **Collaboration** | Team projects in AI/ML and Full-Stack domains |
+| 🌟 **Open Source** | Building tools for the AI/Systems community |
+| 🤝 **Collaboration** | Team projects in AI/ML and Full-Stack domains, Research Projects |
 
 </div>
 
