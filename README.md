@@ -8,7 +8,7 @@
 
 ---
 
-### 💡 Passionate about building intelligent systems and robust backend architectures
+### Passionate about building intelligent systems and robust backend architectures
 *From AI/ML models to scalable distributed systems — engineering at the intersection of machine learning and systems research*
 
 ---
@@ -22,7 +22,7 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 **Name:** Pundarikaksh Narayan Tripathi
 
@@ -37,7 +37,7 @@
 **Status:** Open to Opportunities
 
 
-## 🔭 Currently Building & Learning
+## Currently Building & Learning
 
 
 + Building a 1D Optimal Transport Engine in C++ (LumaSort)
@@ -45,7 +45,7 @@
 + Researching Low-Level GPU Kernels & Triton Optimization
 + Mastering Distributed Systems with Go
 
-## 🏆 Featured Projects
+## Featured Projects
 
 | Project | Description | Tech Stack |
 |------------|-------------|-------------|
@@ -55,9 +55,9 @@
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
-### 👨‍💻 Languages
+### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -70,7 +70,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### 🎨 Frontend & Backend
+### Frontend & Backend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -80,7 +80,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 
-### 🤖 AI/ML & Deep Learning
+### AI/ML & Deep Learning
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 [![JAX](https://img.shields.io/badge/JAX-A435F0?style=for-the-badge&logo=google&logoColor=white)](https://jax.readthedocs.io/)
@@ -90,7 +90,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/)
 
-### 🧠 Generative/ Agentic AI
+### Generative/ Agentic AI
 
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/🦜🕸️_LangGraph-1C3C3C?style=for-the-badge)
@@ -102,7 +102,7 @@
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 [![Unsloth](https://img.shields.io/badge/Unsloth-FFA500?style=flat-square)](https://github.com/unslothai/unsloth)
 
-### 🗄️ Databases & Vector Stores
+### Databases & Vector Stores
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
@@ -115,7 +115,7 @@
 [![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square)](https://weaviate.io/)
 [![Milvus](https://img.shields.io/badge/Milvus-00B0FF?style=flat-square)](https://milvus.io/)
 
-### ☁️ MLOps, DevOps
+### MLOps, DevOps
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
@@ -129,13 +129,13 @@
 [![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 ---
 
-## 🎯 Technical Arsenal & Roadmap
+## Technical Arsenal & Roadmap
 i.e. what I'm learning & building (Currently exploring via independent research).
 <table>
 <tr>
 <td width="50%">
 
-### 🧠 AI/ML & Generative AI
+### AI/ML & Generative AI
 Building intelligent architectures.
 - Deep Learning: PyTorch, JAX, Neural Networks
 - Computer Vision & NLP
@@ -149,7 +149,7 @@ Building intelligent architectures.
 </td>
 <td width="50%">
 
-### ⚡ GPU & Low-Level Infra
+### GPU & Low-Level Infra
 Exploring the metal.
 - Compute: CUDA Programming, High-Performance Computing
 - Languages: C++ for Deep Learning, PyTorch C++ Extensions
@@ -161,7 +161,7 @@ Exploring the metal.
 <tr>
 <td width="50%">
 
-### 🌐 Full-Stack Development
+### Full-Stack Development
 - MERN Stack Applications
 - RESTful APIs, gRPC & Microservices
 - Responsive Web Design
@@ -170,7 +170,7 @@ Exploring the metal.
 </td>
 <td width="50%">
 
-### 📊 Data & Analytics
+### Data & Analytics
 - Data Analysis & Visualization
 - Statistical Modeling
 - Data Storytelling
@@ -182,24 +182,24 @@ Exploring the metal.
 
 ---
 
-## 🤝 Open To Opportunities
+## Open To Opportunities
 
 <div align="center">
 
-### 💼 What I'm Looking For
+### What I'm Looking For
 
 | Opportunity | Description |
 |------------|-------------|
-| 💻 **Internships** | Systems/ML Engineer, GenAI Developer, Backend Roles |
-| 🏆 **Hackathons** | Love building innovative solutions under pressure |
-| 🌟 **Open Source** | Building tools for the AI/Systems community |
-| 🤝 **Collaboration** | Team projects in AI/ML and Full-Stack domains, Research Projects |
+| **Internships** | Systems/ML Engineer, GenAI Developer, Backend Roles |
+| **Hackathons** | Love building innovative solutions under pressure |
+| **Open Source** | Building tools for the AI/Systems community |
+| **Collaboration** | Team projects in AI/ML and Full-Stack domains, Research Projects |
 
 </div>
 
 ---
 
-## 📬 Let's Connect!
+## Let's Connect!
 
 <div align="center">
 
