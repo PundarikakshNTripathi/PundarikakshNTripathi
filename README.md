@@ -8,19 +8,17 @@ Babu Banarasi Das University · Lucknow, India
 <br>
 
 <a href="https://pundarikakshntripathi.github.io/">
-  <img src="assets/pictures/favicon.png" width="24" height="24" alt="Portfolio"> Portfolio
+  <img src="assets/pictures/favicon.png" width="30" height="30" alt="Portfolio" style="vertical-align: middle;"> Portfolio
 </a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/pundarikakshnarayantripathi/">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" height="24" alt="LinkedIn"> LinkedIn
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" height="30" alt="LinkedIn" style="vertical-align: middle;"> LinkedIn
 </a> &nbsp;·&nbsp;
 <a href="https://x.com/PundarikakshNT">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_(white).svg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" width="22" height="22" alt="X" style="vertical-align: middle;">
-  </picture> X (Twitter)
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.svg/240px-X_logo_2023_%28white%29.svg.png#gh-dark-mode-only" width="28" height="28" alt="X" style="vertical-align: middle;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/240px-X_logo_2023.svg.png#gh-light-mode-only" width="28" height="28" alt="X" style="vertical-align: middle;"> X (Twitter)
 </a> &nbsp;·&nbsp;
 <a href="mailto:pundarikaksh.dev@gmail.com">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="24" height="24" alt="Email"> Email
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="30" height="30" alt="Email" style="vertical-align: middle;"> Email
 </a>
 
 </div>
