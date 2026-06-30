@@ -8,7 +8,7 @@ Babu Banarasi Das University · Lucknow, India
 <br>
 
 <a href="https://pundarikakshntripathi.github.io/">
-  <img src="assets/pictures/favicon.png" width="20" height="20" align="middle" style="vertical-align: middle;"> Portfolio
+  <img src="assets/pictures/favicon.png" width="20" height="20" align="middle" style="vertical-align: middle; background-color: #ffffff; border-radius: 4px; padding: 2px;"> Portfolio
 </a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/pundarikakshnarayantripathi/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" height="20" align="middle" style="vertical-align: middle;"> LinkedIn
