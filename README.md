@@ -14,7 +14,10 @@ Babu Banarasi Das University · Lucknow, India
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24" height="24" alt="LinkedIn"> LinkedIn
 </a> &nbsp;·&nbsp;
 <a href="https://x.com/PundarikakshNT">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" width="22" height="22" alt="X"> X (Twitter)
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_(white).svg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" width="22" height="22" alt="X" style="vertical-align: middle;">
+  </picture> X (Twitter)
 </a> &nbsp;·&nbsp;
 <a href="mailto:pundarikaksh.dev@gmail.com">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="24" height="24" alt="Email"> Email
