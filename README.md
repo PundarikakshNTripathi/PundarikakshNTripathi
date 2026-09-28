@@ -43,8 +43,8 @@ mechanistic interpretability. It's early days.
 - **Leading** research at Quiet Intelligence, where I'm building Aegis and TernixEngine.
 - **Interning** as an ML engineer at [FlyRank AI](https://flyrank.ai). I built a ranking pipeline over 79M+
   interaction records and took Precision@50 from 0.24 to 0.74 against the program's heuristic baselines.
-- **Placed third** in the Amazon ML Challenge 2026 on both the public and private leaderboards (business
-  entity resolution; official results pending).
+- **Currently rank 3rd** in the Amazon ML Challenge 2026 on both the public and private leaderboards
+  (business entity resolution; provisional, official results pending).
 - **Studying:** B.Tech CSE (AI), graduating in 2027.
 
 ---
@@ -70,12 +70,13 @@ A dependency-free inference engine for 1.58-bit ternary LLMs. With ternary weigh
   15.0 ms on an i7‑14650HX).
 - **CUDA:** weights stream into shared memory with `cp.async`, and each warp reduces with shuffles.
 
-#### Amazon ML Challenge 2026 · third place · Python
+#### Amazon ML Challenge 2026 · leaderboard rank 3, provisional · Python
 Business entity resolution: find every record of the same business across three noisy directories, scored
 by macro F0.5. One region showed up only in the unlabeled test set, which was most of the difficulty.
 
-My team, **present day**, placed **3rd** on both the public and private leaderboards with a final score of
-**0.991762**. The approach and code stay under wraps until we've filed our write-up.
+My team, **present day**, currently ranks **3rd** on both the public and private leaderboards with a score
+of **0.991762**. That's provisional until Amazon announces official results. The approach and code stay
+under wraps until we've filed our write-up.
 
 #### [VoltaSplat](https://github.com/PundarikakshNTripathi/VoltaSplat) · C++20, CUDA, PyTorch
 A differentiable 3D Gaussian Splatting rasterizer written from scratch and plugged into PyTorch through ATen.
