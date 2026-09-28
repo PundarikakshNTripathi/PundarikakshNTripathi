@@ -70,16 +70,12 @@ A dependency-free inference engine for 1.58-bit ternary LLMs. With ternary weigh
   15.0 ms on an i7‑14650HX).
 - **CUDA:** weights stream into shared memory with `cp.async`, and each warp reduces with shuffles.
 
-#### Amazon ML Challenge 2026 · third place · Python, LightGBM, multilingual-e5
+#### Amazon ML Challenge 2026 · third place · Python
 Business entity resolution: find every record of the same business across three noisy directories, scored
-by macro F0.5.
-- **Retrieval:** 13 lexical retrievers plus an e5 embedding search reach 99.8% candidate recall.
-- **Ranking:** LightGBM ranks the candidates, then fine-tuned cross-encoders in a five-seed bag re-rank them.
-- **Selection:** a calibrator picks each match set to maximize expected F0.5.
-- **Unlabeled region:** France appeared only in the test set, so closing that gap took pseudo-labels and
-  audited rules.
+by macro F0.5. One region showed up only in the unlabeled test set, which was most of the difficulty.
 
-The final public score was 0.9918. The code stays private until the results are announced.
+My team, **present day**, placed **3rd** on both the public and private leaderboards with a final score of
+**0.991762**. The approach and code stay under wraps until we've filed our write-up.
 
 #### [VoltaSplat](https://github.com/PundarikakshNTripathi/VoltaSplat) · C++20, CUDA, PyTorch
 A differentiable 3D Gaussian Splatting rasterizer written from scratch and plugged into PyTorch through ATen.
