@@ -2,8 +2,8 @@
 
 # Pundarikaksh Narayan Tripathi
 
-ML systems and AI research · Lucknow, India  
-B.Tech CSE (AI), Babu Banarasi Das University, 2027
+AI research and engineering, from the math to the metal  
+Lucknow, India
 
 <br>
 
@@ -25,60 +25,64 @@ B.Tech CSE (AI), Babu Banarasi Das University, 2027
 
 ---
 
-I write the low-level parts of machine learning from scratch, measure them, and keep the numbers honest. The
-longer-term aim is research on how models reason, and what it would take for a system to learn the way a
-scientist does: from a few observations, with causal structure rather than correlation.
+Hi, I'm Pundarikaksh.
 
-### Measured results
+I got into machine learning because I wanted to know why it works, and I've never been satisfied with the
+answer "because the library does it." So I tend to rebuild things until I can see inside them: the kernel that
+makes a 1.58-bit model fast, the backward pass behind a renderer, the all-reduce that keeps a hundred GPUs
+agreeing with each other. Some of that is engineering. A lot of it is just trying to understand.
 
-Every figure below is produced by a script in the linked repository, on an i7‑14650HX and an RTX 5060 Laptop.
+What I'm really after is the harder question underneath. Why do models interpolate so well and extrapolate so
+badly? What would it take for a system to reason causally instead of imitating text that was written by people
+who did? I read a lot of the math around that (causal hierarchies, compression and abstraction, program
+synthesis, the ARC problem), and I use the systems work to keep myself honest about what can actually be
+measured. I haven't published yet. That's the plan for this year.
 
-| Project | What it is | Result |
-|---|---|---|
-| [TernixEngine](https://github.com/Quiet-Intelligence/TernixEngine) | 1.58-bit LLM inference kernels, AVX2 and CUDA, bit-exact against an integer reference | **10.2×** over scalar on CPU (86.8 → 8.5 ms, 512³, one core); **5.6×** over naive on GPU at 4096³ |
-| [Aegis](https://github.com/Quiet-Intelligence/aegis) | eBPF LSM enforcement and behavioural scoring for autonomous coding agents | **3.75 µs** to score a kernel event; validated live on native Linux and WSL2 |
-| [VoltaSplat](https://github.com/PundarikakshNTripathi/VoltaSplat) | Differentiable 3D Gaussian Splatting rasterizer in CUDA, hand-derived gradients | **612 FPS** at 100k Gaussians; **6.1 ms** forward at 1M; gradients match a reference to 1e‑6 |
-| [nanoDist](https://github.com/PundarikakshNTripathi/nanoDist) | Data-parallel training in NumPy: ring all-reduce over TCP, ZeRO‑2, checkpointing | **−68%** memory per worker (106 → 34 MB) |
-| [HiveTorch](https://github.com/PundarikakshNTripathi/HiveTorch) | FedAvg over gRPC on Kubernetes, Dirichlet non-IID clients | gRPC run equals in-process to **1e‑6**; 97.3% IID → 92.9% at α = 0.1 |
-| [Causal-DML](https://github.com/PundarikakshNTripathi/Causal-DML) | Double machine learning on 30 GB of logs, served as a counterfactual API | Recovers a planted null effect under confounding (ATE −1.7e‑3) |
-| [LumaSort-Engine](https://github.com/PundarikakshNTripathi/LumaSort-Engine) | Real-time luminance pixel sorting, C++20 and OpenGL compute shaders | **640K** particles at 60+ FPS |
+### Things I've built
 
-### How the work is done
+- **[TernixEngine](https://github.com/Quiet-Intelligence/TernixEngine)**: 1.58-bit LLM inference kernels in C++,
+  AVX2 and CUDA. With ternary weights there's nothing to multiply, so the whole game is not wasting what you
+  saved. It runs 10.2× faster than the scalar baseline on a single CPU core, and every kernel matches an integer
+  reference bit for bit.
+- **[Aegis](https://github.com/Quiet-Intelligence/aegis)**: eBPF and Go. It watches what an autonomous agent does
+  at the kernel and learns what normal looks like, because the dangerous attacks are sequences of steps that are
+  each allowed on their own. I wrote it after reading about a real sandbox escape built exactly that way.
+- **[VoltaSplat](https://github.com/PundarikakshNTripathi/VoltaSplat)**: a differentiable 3D Gaussian Splatting
+  rasterizer in CUDA, with the gradients derived by hand. 612 FPS at 100k Gaussians.
+- **[nanoDist](https://github.com/PundarikakshNTripathi/nanoDist)**: distributed training in plain NumPy. Ring
+  all-reduce over real sockets, ZeRO Stage 2, 68% less memory per worker.
+- **[HiveTorch](https://github.com/PundarikakshNTripathi/HiveTorch)**: federated averaging over gRPC on
+  Kubernetes, with deliberately skewed clients.
+- **[Causal-DML](https://github.com/PundarikakshNTripathi/Causal-DML)**: double machine learning on 30 GB of
+  listening logs, served as a counterfactual API.
+- **[LumaSort-Engine](https://github.com/PundarikakshNTripathi/LumaSort-Engine)**: 640K particles sorting
+  themselves by brightness in real time. Just for fun.
 
-- **Derive it, then test it against something independent.** VoltaSplat's CUDA backward pass is checked against a
-  separate PyTorch renderer, which is itself checked against float64 finite differences. TernixEngine's kernels
-  are compared bit for bit with an integer GEMM. nanoDist's ZeRO‑2 must reproduce single-process Adam.
-- **Say what was and wasn't measured.** The READMEs list what is not implemented and what hasn't been compared
-  yet. TernixEngine is a kernel library, not a model runtime, and it says so on the first screen.
-- **Keep negative results.** Leakage is the clearest case. On the FlyRank ranking task a random split scored
-  P@50 0.94 and a client-grouped split scored 0.70. The grouped number is the one I report.
+### Along the way
 
-### Research directions
+- Interned at [FlyRank AI](https://flyrank.ai) over the summer, on ranking and causal inference. The result I'm
+  proudest of is a negative one: a random split said 0.94, the honest split said 0.70.
+- Third on both leaderboards at the last check in the Amazon ML Challenge 2026 (entity resolution, score
+  0.991762). We missed the finals.
+- Second place at HackArena 2025.
 
-Reading and prototyping, nothing published yet:
+### Toolbox
 
-- **Fluid intelligence and abstraction.** Program-synthesis and compression-based accounts of generalisation,
-  ARC-style tasks, and why current models interpolate well and extrapolate poorly.
-- **Causal reasoning.** Whether a system can climb Pearl's ladder (association, intervention, counterfactual)
-  rather than imitate its text, and how to test that without leaking the answer.
-- **Efficient models.** What ternary and other low-bit weights cost in capability, and whether interpretability
-  tools such as sparse autoencoders still work on them.
-- **Oversight of agents.** Behavioural scoring from kernel telemetry, the problem Aegis is built around.
+- **Languages:** C, C++17/20, CUDA C++, Triton, Python, Go, SQL
+- **ML:** PyTorch, JAX, ONNX, scikit-learn, XGBoost, LightGBM, Hugging Face, OpenCV
+- **Causal and RL:** EconML, DoWhy, double machine learning, LinUCB bandits, process reward models
+- **Systems:** SIMD/AVX2 intrinsics, GPU programming, eBPF and Linux security modules, AWS Cedar, CMake
+- **Data and infrastructure:** DuckDB, Apache Arrow, Docker, Kubernetes, gRPC, FastAPI, Kafka, Spark, Redis,
+  PostgreSQL
+- **Experiments:** Weights & Biases, MLflow, Optuna, Prometheus
 
-### Competitions and work
+---
 
-- **FlyRank AI**, ML engineering intern, July to September 2026. Ranking pipeline over 79.8M interaction
-  records; P@50 0.56 → 0.70 on a client-grouped holdout.
-- **Amazon ML Challenge 2026**, entity resolution scored by macro F0.5. Third on both the public and private
-  leaderboards at the last check (0.991762). We did not reach the finals, and the approach stays private.
-- **HackArena 2025**, second place (Masai × NoBroker), backend for a civic complaint tracker.
+### Say hello
 
-### Stack
+If you're working on inference, kernels, causal methods, or the theory of how models generalize, I'd like to
+hear what you're stuck on. If you're hiring for research or ML systems, or you want a collaborator on something
+hard, write to me. I read every email.
 
-C, C++17/20, CUDA, Triton, Python, Go, SQL · PyTorch, JAX, ONNX, Hugging Face, scikit-learn · SIMD/AVX2, eBPF,
-Cedar, gRPC, Kubernetes, Docker, DuckDB, FastAPI · EconML, DoWhy, MLflow, Prometheus
-
-### Contact
-
-Email is the quickest: pundarikaksh[dot]dev[at]gmail[dot]com. I'm glad to talk about inference, kernels,
-causal methods, agent security or anything in the table above. Issues and pull requests are welcome.
+**pundarikaksh[dot]dev[at]gmail[dot]com** · [LinkedIn](https://www.linkedin.com/in/pundarikakshnarayantripathi/)
+· [X](https://x.com/PundarikakshNT) · [Portfolio](https://pundarikakshntripathi.github.io/)
