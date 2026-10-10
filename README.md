@@ -63,7 +63,8 @@ measured. I haven't published yet. That's the plan for this year.
 - Interned at [FlyRank AI](https://flyrank.ai) over the summer, on ranking and causal inference. The result I'm
   proudest of is a negative one: a random split said 0.94, the honest split said 0.70.
 - Third on both leaderboards at the last check in the Amazon ML Challenge 2026 (entity resolution, score
-  0.991762). We missed the finals.
+  0.991762); the [code and write-up](https://github.com/PundarikakshNTripathi/present-day-ber-amlc-2026) are public.
+  We missed the finals.
 - Second place at HackArena 2025.
 
 ### Toolbox
